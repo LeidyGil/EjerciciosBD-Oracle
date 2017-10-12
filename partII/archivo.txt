@@ -52,3 +52,16 @@ and CATEGORIES.SEASON = 'summer'
 order by PRODUCTS.PRICE asc;
 
 insert into answers values ('2','QUESTION 2','3');
+
+select name from products
+where REFERENCE = '523C9788-FFA5-715C-1F2B-7AA8BC33C107';
+
+insert into answers values ('4','QUESTION 4','congue turpis. In');
+
+
+select products.CATEGORY_ID from categories, products
+where products.NAME = 'ligula consectetuer rhoncus.';
+select * from categories
+where ID = 9;
+
+insert into answers values ('5','QUESTION 5','running wear');
